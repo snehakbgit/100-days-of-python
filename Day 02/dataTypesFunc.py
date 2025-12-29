@@ -1,4 +1,6 @@
 # len(123) - len funtion is only for string or equivalent
+a = 123
+print(len(a))
 
 # type
 print(type(123))
