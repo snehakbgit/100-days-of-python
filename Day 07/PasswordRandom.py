@@ -35,5 +35,3 @@ random.shuffle(password_list)
 password = "".join(password_list)
 
 print(f"Your generated password is: {password}")
-
-
