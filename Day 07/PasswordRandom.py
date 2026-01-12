@@ -32,6 +32,6 @@ for _ in range(nr_numbers):
 random.shuffle(password_list)
 
 # Convert list to string
-password = "".join(password_list)
+password: str = "".join(password_list)
 
-print(f"Your generated password is: {password}")
+print(f"Your Generated password is: {password}")
